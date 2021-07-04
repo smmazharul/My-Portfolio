@@ -48,6 +48,9 @@ h1{
 
 .header-part2{
     display: flex;
+    background-image: url(../images/side-banner.png);
+    background-repeat: no-repeat;
+    background-position: right;
     
     
 
