@@ -20,7 +20,7 @@ h1{
 }
 .half-width{
     width: 50%;
-    padding: 2%;
+    padding: 3%;
     
 }
 .half-width img{
@@ -51,8 +51,64 @@ h1{
     background-image: url(../images/side-banner.png);
     background-repeat: no-repeat;
     background-position: right;
+    margin-bottom: 90px;
     
-    
+}
+/*================== header part-2 End ========================*/
 
+
+/*================== Experience start ========================*/
+.experience-area{
+  padding: 3%;
+  background-image: url(../images/exp-side-banner.png);
+  background-repeat: no-repeat;
+  background-size: 50%;
 
 }
+
+.flexible-container{
+    display: flex;
+}
+.experience-area .exp-heading{
+ text-align: center;
+ margin-bottom: 90px;
+ color: orange;
+ 
+ 
+  
+}
+.exp-first-content{
+    width: 50%;
+    padding: 10px;
+    margin-left: 3%;
+    margin-right: 3%;
+    box-shadow: 10px 10px 40px gray;
+    
+       
+}
+#exp-content{
+    border-left: 7px solid;
+    border-image:linear-gradient(orange,rgb(105, 3, 3)) ;
+    border-image-slice: 1;
+}
+#exp-cont{
+    border-left: 7px solid;
+    border-image:linear-gradient(rgba(83, 2, 2, 0.918),rgb(253, 137, 3)) ;
+    border-image-slice: 1;
+    
+}
+
+.exp-first-content h3{
+    color: orange;
+    margin: 5px 0;
+}
+.exp-first-content h2{
+    color: gray;
+    margin: 5px 0;
+}
+
+.copy-right{
+    text-align: center;
+    margin: 80px;
+}
+
